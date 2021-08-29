@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "tiktok backend app",
   "main": "server.js",
-  "type": "module",
+  "type": "module", "//":["this type attribute lets you use import in nodejs instead of require used in common js"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^6.0.2",
     "nodemon": "^2.0.12"
   }
 }
