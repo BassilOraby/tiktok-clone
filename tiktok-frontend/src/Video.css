@@ -1,0 +1,9 @@
+.video {
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.video_player {
+  width: 400px;
+  height: 721px;
+}
